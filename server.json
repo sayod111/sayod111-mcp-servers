@@ -1,8 +1,12 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.sayod111/b2b-ecommerce-intelligence-mcp",
-  "description": "Pure HTTP/2 E-Commerce store audits, 110+ B2B tech/DNS enrichment, and 7-ATS hiring intent MCP.",
+  "name": "io.github.sayod111/sayod111-intelligence-mcp",
+  "description": "Pure HTTP/2 e-commerce audits, B2B tech/DNS enrichment, and 7-ATS hiring intent tools.",
   "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/sayod111/sayod111-mcp-servers",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
