@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sayod111/b2b-ecommerce-intelligence-mcp",
+  "description": "Pure HTTP/2 E-Commerce store audits, 110+ B2B tech/DNS enrichment, and 7-ATS hiring intent MCP.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=sayod111/commercepulse-pro,sayod111/b2b-revenue-lead-enricher-mcp,sayod111/b2b-hiring-intent-ats-mcp"
+    }
+  ]
+}
