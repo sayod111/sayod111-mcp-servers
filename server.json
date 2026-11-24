@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.sayod111/sayod111-intelligence-mcp",
-  "description": "Pure HTTP/2 e-commerce audits, B2B tech/DNS enrichment, and 7-ATS hiring intent tools.",
-  "version": "1.0.0",
+  "description": "Pure HTTP/2 storefront diagnostics, B2B tech/DNS telemetry, and 7-ATS hiring analytics.",
+  "version": "1.0.2",
   "repository": {
     "url": "https://github.com/sayod111/sayod111-mcp-servers",
     "source": "github"
@@ -10,7 +10,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.apify.com/?tools=sayod111/commercepulse-pro,sayod111/b2b-revenue-lead-enricher-mcp,sayod111/b2b-hiring-intent-ats-mcp"
+      "url": "https://sayod111-mcp-gateway.sayodyalawi.workers.dev/mcp"
     }
   ]
 }
