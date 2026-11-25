@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.sayod111/sayod111-intelligence-mcp",
-  "description": "Storefront, hiring, SEC adviser filings and SaaS trust center data from public sources.",
-  "version": "1.1.0",
+  "description": "Ten tools for commerce, advisers, trust, healthcare, public bids, secured loans and biotech.",
+  "version": "1.2.0",
   "repository": {
     "url": "https://github.com/sayod111/sayod111-mcp-servers",
     "source": "github"

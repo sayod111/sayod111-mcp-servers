@@ -1,6 +1,7 @@
 # Sayod 111 B2B and E-Commerce Intelligence MCP Server
 
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/sayod111/sayod111-mcp-servers)
+[![mcptry](https://mcptry.com/badge/io.github.sayod111/sayod111-intelligence-mcp)](https://mcptry.com/servers/io.github.sayod111/sayod111-intelligence-mcp)
 
 Production remote MCP server by Sayod 111 providing pure Async HTTP/2 commercial data extraction and diagnostics for Claude, ChatGPT, Cursor, VS Code, Clay, n8n, and Make workflows. Apify authentication and usage charges may apply.
 
@@ -39,6 +40,17 @@ See [Apify MCP documentation](https://docs.apify.com/platform/integrations/mcp) 
 ## Cloudflare gateway
 
 Connect to https://sayod111-mcp-gateway.sayodyalawi.workers.dev/mcp and call `tools/list` to discover the active tools. Live Actor calls require your Apify token in the Authorization Bearer header. Access to the WealthPulse and Trust Center Actors is restricted until their Store publication.
+
+### Version 1.2.0
+
+The prepared gateway exposes ten tools. The four additions read public data. Discovery needs no credentials. Calls use `Authorization: Bearer <APIFY_TOKEN>` and can incur Apify charges. Availability depends on gateway deployment and the caller's access to each Actor.
+
+| MCP tool | Apify Actor |
+|---|---|
+| `us_healthcare_kol_cms_enricher` | `us-healthcare-kol-cms-enricher` |
+| `us_sled_gov_bids_monitor` | `us-sled-gov-bids-monitor` |
+| `us_ucc_1_secured_loan_leads` | `us-ucc-1-secured-loan-leads` |
+| `us_biotech_grants_trials_fda510k` | `us-biotech-grants-trials-fda510k` |
 
 ## REST API Discovery
 - Postman Public Workspace: https://www.postman.com/s-ali-mohamed-bh-2153051/sayod-111-intelligence-apis/overview
