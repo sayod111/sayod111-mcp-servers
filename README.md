@@ -1,5 +1,7 @@
 # Sayod 111 B2B and E-Commerce Intelligence MCP Server
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/sayod111/sayod111-mcp-servers)
+
 Production remote MCP server by Sayod 111 providing pure Async HTTP/2 commercial data extraction and diagnostics for Claude, ChatGPT, Cursor, VS Code, Clay, n8n, and Make workflows. Apify authentication and usage charges may apply.
 
 ## Remote MCP Endpoint (Streamable HTTP)
@@ -33,6 +35,10 @@ Extracts live open roles across Greenhouse, Lever, Ashby, Workable, SmartRecruit
 ```
 
 See [Apify MCP documentation](https://docs.apify.com/platform/integrations/mcp) for authentication.
+
+## Cloudflare gateway
+
+Connect to https://sayod111-mcp-gateway.sayodyalawi.workers.dev/mcp and call `tools/list` to discover the active tools. Live Actor calls require your Apify token in the Authorization Bearer header. Access to the WealthPulse and Trust Center Actors is restricted until their Store publication.
 
 ## REST API Discovery
 - Postman Public Workspace: https://www.postman.com/s-ali-mohamed-bh-2153051/sayod-111-intelligence-apis/overview
